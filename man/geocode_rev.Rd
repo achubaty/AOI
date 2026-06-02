@@ -28,7 +28,7 @@ but can also be use to get more information about a place name. xy must contain 
 }
 \seealso{
 Other geocode: 
-\code{\link{geocode_wiki}()},
-\code{\link{geocode}()}
+\code{\link{geocode}()},
+\code{\link{geocode_wiki}()}
 }
 \concept{geocode}

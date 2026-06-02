@@ -39,7 +39,7 @@ geocode_wiki("Hurricane Harvey")
 }
 \seealso{
 Other geocode: 
-\code{\link{geocode_rev}()},
-\code{\link{geocode}()}
+\code{\link{geocode}()},
+\code{\link{geocode_rev}()}
 }
 \concept{geocode}

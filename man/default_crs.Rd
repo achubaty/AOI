@@ -2,6 +2,7 @@
 % Please edit documentation in R/package_AOI.R
 \docType{package}
 \name{default_crs}
+\alias{-package}
 \alias{default_crs}
 \title{AOI Package}
 \format{
