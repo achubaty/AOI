@@ -16,9 +16,8 @@ Not case sensitive}
 \item{county}{\code{character}. Provide county name(s).
 Requires 'state' input.}
 
-\item{bb}{\code{logical}. If \code{TRUE} then the bounding geometry of
-state/county is returned,  default is \code{FALSE} and returns
-fiat geometries}
+\item{fip}{\code{character}. A 2-digit (state) or 5-digit (state + county)
+FIPS code.}
 }
 \value{
 a \code{SpatialPolygons} object projected to \emph{EPSG:4269}.

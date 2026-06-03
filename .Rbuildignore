@@ -13,3 +13,4 @@ pkgdown
 data-raw
 .covrignore
 codecov.yml
+^LICENSE\.md$

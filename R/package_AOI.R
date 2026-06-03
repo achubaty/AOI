@@ -1,4 +1,4 @@
-#' @title AOI Package
+#' @title AOI: Areas of Interest
 #' @description
 #' An area of interest (AOI) is a geographic extent.
 #' The aim of this package is to help users create these -
@@ -10,8 +10,7 @@
 #' and the project webpage for examples
 #' \href{https://mikejohnson51.github.io/AOI/}{here}.
 #'
-#' @docType package
-
+#' @keywords internal
 #' @importFrom tidygeocoder geo reverse_geo
 #' @importFrom dplyr `%>%` select contains mutate rename any_of
 #' @importFrom sf st_union st_transform st_as_sf st_bbox st_area st_as_sfc st_is st_sf st_sfc st_polygon st_cast st_geometry_type st_crs st_buffer st_drop_geometry st_point st_set_crs st_is_longlat
@@ -20,6 +19,10 @@
 #' @importFrom rnaturalearth ne_countries
 #' @importFrom units set_units
 #' @importFrom fipio fips_metadata
+#' @importFrom utils globalVariables
+"_PACKAGE"
+
+utils::globalVariables("zipcodes")
 
 default_crs = 4326
 default_method = "arcgis"
